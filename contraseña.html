@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Contraseña</title>
+    <link rel="stylesheet" href="STYLE/contraseña.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> <!-- Incluyendo Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> <!-- Incluyendo la fuente Roboto -->
+</head>
+<body>
+    <div class="login-container">
+        <form class="login-form">
+            <h2>Recuperar Contraseña</h2>
+            <p class="info-text">Ingresa tu correo electrónico para recibir instrucciones de cómo recuperar tu contraseña.</p>
+            <div class="input-group">
+                <label for="email">Correo Electrónico</label>
+                <div class="input-with-icon">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+            <button type="submit" class="btn">Enviar Instrucciones</button>
+
+            <div class="extra-options">
+                <a href="index.html">¿Ya tienes una cuenta? Inicia Sesión</a>
+            </div>
+        </form>
+    </div>
+    <script src="JS/firebase.js" type="module"></script>
+    <script src="JS/contraseña.js" type="module"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

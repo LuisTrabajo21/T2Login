@@ -1,0 +1,120 @@
+/* Estilos globales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Botón de cerrar sesión */
+.btn-logout {
+    background-color: #ff5252;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-logout:hover {
+    background-color: #ff1744;
+}
+
+/* Sección de bienvenida */
+.welcome-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.welcome-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Sección de características */
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.feature {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.feature-icon {
+    font-size: 48px;
+    color: #6200ea;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.btn-feature {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-feature:hover {
+    background-color: #3700b3;
+}
+
+/* Pie de página */
+footer {
+    background-color: #6200ea;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
